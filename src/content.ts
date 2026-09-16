@@ -22,7 +22,7 @@ export const content: PortfolioContent = {
     siteName: 'Mostafa Atef Mohamed',
     // Left blank on purpose: no production domain exists yet. Fill this in to
     // switch on <link rel="canonical">, og:url and structured-data `url`.
-    canonicalUrl: '',
+    canonicalUrl: 'https://MostafaAtef4.github.io/portfolio/',
   },
 
   nav: [
