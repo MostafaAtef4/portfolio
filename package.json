@@ -1,0 +1,18 @@
+{
+  "name": "mostafa-atef-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio for Mostafa Atef Mohamed, .NET Backend Developer",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "serve": "node build.mjs && npx --yes serve dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "type": "module"
+}
