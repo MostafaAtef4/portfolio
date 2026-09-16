@@ -17,7 +17,7 @@ import path from 'node:path';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
-const dist = path.join(root, 'dist');
+const dist = path.join(root, 'docs');
 const assets = path.join(dist, 'assets');
 const tmp = path.join(root, '.build');
 
