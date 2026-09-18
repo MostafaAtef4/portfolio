@@ -38,7 +38,7 @@ export const content: PortfolioContent = {
   // { file: 'Mostafa-Atef-Mohamed-CV.pdf', downloadName: 'Mostafa-Atef-Mohamed-CV.pdf' }
   // to render the header and hero download buttons.
   cv: {
-    file: 'assets/Mostafa-Atef-Mohamed-CV.pdf',
+    file: 'assets/Mostafa-Atef-MohamedCV.pdf',
     downloadName: 'Mostafa-Atef-Mohamed-CV.pdf',
   },
 
