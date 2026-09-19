@@ -33,12 +33,10 @@ export const content: PortfolioContent = {
     { id: 'contact', label: 'Contact' },
   ],
 
-  // The CV PDF was not supplied with this build. Drop
-  // `Mostafa-Atef-Mohamed-CV.pdf` into `static/` and set this object to
-  // { file: 'Mostafa-Atef-Mohamed-CV.pdf', downloadName: 'Mostafa-Atef-Mohamed-CV.pdf' }
-  // to render the header and hero download buttons.
+  // Drop `Mostafa-Atef-Mohamed-CV.pdf` into `static/` (not docs/dist) and
+  // run `npm run build` so it is copied to docs/assets/.
   cv: {
-    file: 'assets/Mostafa-Atef-MohamedCV.pdf',
+    file: 'assets/Mostafa-Atef-Mohamed-CV.pdf',
     downloadName: 'Mostafa-Atef-Mohamed-CV.pdf',
   },
 
