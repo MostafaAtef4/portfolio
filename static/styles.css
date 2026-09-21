@@ -874,12 +874,6 @@ svg {
   fill: rgba(196, 154, 69, 0.85);
 }
 
-.card-visual-note {
-  font-size: 0.75rem;
-  line-height: 1.4;
-  color: var(--on-dark-soft);
-}
-
 .card-body {
   display: flex;
   flex-direction: column;

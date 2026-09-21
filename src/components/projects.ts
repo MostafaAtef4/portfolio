@@ -14,10 +14,7 @@ function featuredCard(p: Project): string {
   <article class="project-card">
     ${
       p.visual
-        ? `<div class="card-visual">
-             ${projectMotif(p.visual)}
-             <p class="card-visual-note">Conceptual visual, not a screenshot</p>
-           </div>`
+        ? `<div class="card-visual">${projectMotif(p.visual)}</div>`
         : ''
     }
     <div class="card-body">
